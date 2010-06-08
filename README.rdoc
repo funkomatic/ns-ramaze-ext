@@ -21,6 +21,8 @@ See the generated documentation on the following sites :
 
 * http://rdoc.info/projects/funkomatic/ns-ramaze-ext
 
+* http://yardoc.org/docs/funkomatic-ns-ramaze-ext/
+
 You can also generate the documentation by issuing the following command in the gem home : 
 
 * rake doc
