@@ -1,8 +1,6 @@
 = ns-ramaze-ext gem
 
-
 The purpose of this gem is to provide some extensions to the ramaze web framework.
-
 
 == Features
 

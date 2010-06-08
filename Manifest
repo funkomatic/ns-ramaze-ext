@@ -1,9 +1,10 @@
 CHANGELOG
 Manifest
-README
+README.rdoc
 Rakefile
 lib/ext/ramaze/helper/banana_form.rb
 lib/ns-ramaze-ext.rb
+ns-ramaze-ext.gemspec
 rake/doc.rb
 rake/gemdef.rb
 rake/rake.rb
