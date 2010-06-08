@@ -1,0 +1,50 @@
+= ns-ramaze-ext gem
+
+
+The purpose of this gem is to provide some extensions to the ramaze web framework.
+
+
+== Features
+
+=== Form Helpers
+
+BananaFrom is a form helper that provides a Rails like behaviour for validation
+errors in forms and extra parameters for field/label styling.
+
+Check the doc for Ramaze::Helper::BananaForm.
+
+== Installation
+
+=== Requirements
+
+Mandatory :
+
+* gem install echoe
+* gem install rake
+* gem install ramaze
+
+Recommended :
+
+* gem install bacon
+
+
+=== Procedure
+
+* Get the files from the github and perform the following operations :
+
+* Execute commands :
+
+  *  rake gems:ns-ramaze-ext:build
+  *  rake reinstall
+
+== Doc generation
+
+Run the following command
+
+ *  rake doc
+
+== Testing
+
+Run the following command
+
+ * rake tests
