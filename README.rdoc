@@ -41,6 +41,15 @@ If you want to clean up the temporary files (doc,tests... ) just issue :
 
  * rake clean
 
+== Example app
+
+We provide a minimal ramaze application that demonstrates the form validation/error handling behaviour in the example directory.
+
+Please note that the app is configured to use *Mongrel* adapter and *Erubis* templating engine.
+
+If you use another templating engine make sure that you adapt the syntax and extensiond of the (two) rhtml files in the project.
+
+
 == Documentation
 
 See the generated documentation on the following sites : 

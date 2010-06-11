@@ -1,0 +1,42 @@
+
+.text_label {
+ float: left;
+ width: 150px;
+}
+
+.text_input_error {
+  padding: 2px;
+  background-color: red;
+}
+.text_label_error {
+  padding: 2px;
+  color: red;
+  float: left;
+  width: 150px;
+}
+#form_error_summary {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+#form_error_summary h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #cc0000;
+  color: #ffffff;
+}
+#form_error_summary p {
+  color: #333333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+#form_error_summary ul li {
+  font-size: 12px;
+  list-style: square;
+}

@@ -1,0 +1,12 @@
+<%
+   ## check if errors were provided
+   form_errors_from_model @banana
+%>
+<%=
+ form(:method => :post, :action => :create, :name => 'banana' ) do |f|
+   f.legend('Banana Details')
+   f.input_text 'Color', :color, @banana.color
+   f.input_text 'Country', :country, @banana.country
+   f.input_submit 'Create A Banana'
+ end
+%>
