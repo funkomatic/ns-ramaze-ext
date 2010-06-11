@@ -13,7 +13,33 @@ Check the doc for Ramaze::Helper::BananaForm
 
 == Installation
 
-gem install ns-ramaze-ext
+=== From rubygems:
+
+Install using the gem command
+
+* gem install ns-ramaze-ext
+
+=== From source : 
+
+If you use the git sources you'll probably notice that we're using echoe for gem creation, so there is no gemspec file.
+
+So if you're up to modify the sources and use the existing packaging system here are some hints : 
+
+Create Manifest and gemspec file : 
+
+ * rake gems:ns-ramaze-ext:build
+
+Create the gem file : 
+
+ * rake gems:ns-ramaze-ext:package
+
+In order to do the full build install process ( create Manifest, gemspec, gem ) just issue : 
+
+ * rake reinstall
+
+If you want to clean up the temporary files (doc,tests... ) just issue : 
+
+ * rake clean
 
 == Documentation
 

@@ -14,8 +14,8 @@ namespace 'gems' do
         p.author         = GEM_AUTHOR
         p.email          = GEM_EMAIL
         p.ignore_pattern = GEM_IGNORE
-        p.development_dependencies = GEM_DEPENDS_ON
-        p.runtime_dependencies = GEM_DEPENDS_ON
+        p.development_dependencies = GEM_DEV_DEPENDS_ON
+        p.runtime_dependencies = GEM_RT_DEPENDS_ON
       end
     end
 end
